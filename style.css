@@ -69,11 +69,9 @@
 /* header  */
 
 .header {
-  background: linear-gradient(
-    270deg,
-    rgb(46, 49, 146, 0.7) 0%,
-    rgb(212, 20, 90, 0.7) 100%
-  );
+  background: linear-gradient(270deg,
+      rgb(46, 49, 146, 0.7) 0%,
+      rgb(212, 20, 90, 0.7) 100%);
 }
 
 .header .container {
@@ -184,4 +182,32 @@ select option {
   border: none;
   border-radius: 7px;
   background: linear-gradient(96deg, #b90160 0%, #2e3192 100%);
+}
+
+/* what-is-it */
+
+.what-is-it {
+  margin-bottom: 225px;
+}
+
+.what-is-it-title {
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 59px;
+  text-align: center;
+}
+
+.what-is-it-items {
+  gap: 60px;
+  margin-top: 120px;
+}
+
+.what-is-it-item {
+  width: 33%;
+  border-radius: 9px;
+  box-shadow: 0 0 40px rgba(184, 0, 95, 0.2);
+}
+
+.what-is-it-item img {
+  width: 100%;
 }
